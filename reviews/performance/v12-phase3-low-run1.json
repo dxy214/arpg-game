@@ -1,0 +1,59 @@
+{
+  "seconds": 30,
+  "samples": 1800,
+  "averageFps": 59.99,
+  "onePercentLowFps": 49.76,
+  "frameMs": {
+    "median": 16.7,
+    "p95": 17.5,
+    "p99": 18.5,
+    "max": 28.8
+  },
+  "start": {
+    "objects": 1125,
+    "calls": 97,
+    "triangles": 20254,
+    "geometries": 243,
+    "textures": 54,
+    "programs": 26
+  },
+  "end": {
+    "objects": 1122,
+    "calls": 91,
+    "triangles": 19102,
+    "geometries": 240,
+    "textures": 54,
+    "programs": 26
+  },
+  "delta": {
+    "objects": -3,
+    "geometries": -3,
+    "textures": 0,
+    "programs": 0
+  },
+  "quality": "low",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "pixelRatio": 0.65
+  },
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "hardwareConcurrency": 10,
+    "deviceMemory": 16,
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "webglVendor": "Google Inc. (Apple)"
+  },
+  "consoleIssues": [],
+  "capture": {
+    "version": "v12",
+    "baseUrl": "http://127.0.0.1:5192",
+    "query": "?scenario=boss&form=dreadwolf&god=1&capture=1&perf=1&quality=low",
+    "warmupSeconds": 12,
+    "viewport": "1280x720",
+    "browserSurface": "Codex in-app browser",
+    "run": 1
+  }
+}

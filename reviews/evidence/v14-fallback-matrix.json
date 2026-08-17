@@ -1,0 +1,21 @@
+{
+  "matrix": [
+    {
+      "path": "retry-v14",
+      "status": "ready:v14"
+    },
+    {
+      "path": "fail-selected",
+      "status": "fallback:v11"
+    },
+    {
+      "path": "fail-all",
+      "status": "fallback:procedural:v14,v11"
+    },
+    {
+      "path": "default",
+      "status": "ready:v11"
+    }
+  ],
+  "logs": []
+}

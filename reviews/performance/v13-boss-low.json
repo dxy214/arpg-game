@@ -1,0 +1,16 @@
+{
+  "build": "dev source matching production index-D_rW1K2-.js",
+  "scenario": "boss phase I, Stonewrought, god mode, 12.5 second warmup",
+  "seconds": 30,
+  "samples": 1800,
+  "averageFps": 60,
+  "onePercentLowFps": 56.43,
+  "frameMs": { "median": 16.7, "p95": 17.3, "p99": 17.7, "max": 17.9 },
+  "start": { "objects": 1166, "calls": 132, "triangles": 22352, "geometries": 201, "textures": 89, "programs": 23 },
+  "end": { "objects": 1162, "calls": 110, "triangles": 20510, "geometries": 201, "textures": 89, "programs": 23 },
+  "delta": { "objects": -4, "geometries": 0, "textures": 0, "programs": 0 },
+  "quality": "low",
+  "viewport": { "width": 1280, "height": 720, "pixelRatio": 0.65 },
+  "consoleIssues": 0,
+  "environment": "Chrome 151, WebGL2 ANGLE Metal, Apple M5"
+}

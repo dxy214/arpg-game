@@ -1,0 +1,55 @@
+{
+  "seconds": 30,
+  "samples": 1801,
+  "averageFps": 60,
+  "onePercentLowFps": 56.62,
+  "frameMs": {
+    "median": 16.7,
+    "p95": 17.1,
+    "p99": 17.5,
+    "max": 18.4
+  },
+  "start": {
+    "objects": 1177,
+    "calls": 104,
+    "triangles": 21412,
+    "geometries": 248,
+    "textures": 89,
+    "programs": 23
+  },
+  "end": {
+    "objects": 1141,
+    "calls": 97,
+    "triangles": 20254,
+    "geometries": 245,
+    "textures": 89,
+    "programs": 23
+  },
+  "delta": {
+    "objects": -36,
+    "geometries": -3,
+    "textures": 0,
+    "programs": 0
+  },
+  "quality": "low",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "pixelRatio": 0.65
+  },
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "hardwareConcurrency": 10,
+    "deviceMemory": 16,
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "webglVendor": "Google Inc. (Apple)"
+  },
+  "capture": {
+    "url": "http://127.0.0.1:4181/?scenario=boss&form=dreadwolf&god=1&capture=1&perf=1&quality=low",
+    "warmupSeconds": 12,
+    "viewport": "1280x720",
+    "production": true
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "generator": "tooling/blender/build_v11_assets.py",
+  "license": "Original project-authored assets; no external or proprietary source assets.",
+  "blender": "4.5.12 LTS",
+  "assets": [
+    {
+      "id": "v11-nightbound",
+      "asset": "nightbound",
+      "static_url": "src/assets/models/nightbound.glb",
+      "authored_root_name": "NightboundRig",
+      "glb": "src/assets/models/nightbound.glb",
+      "blend": "art_source/characters/nightbound.blend",
+      "previews": [
+        "art_source/previews/nightbound-gameplay.png",
+        "art_source/previews/nightbound-close.png",
+        "art_source/previews/nightbound-attack.png",
+        "art_source/previews/nightbound-attack-anticipation.png",
+        "art_source/previews/nightbound-attack-contact.png",
+        "art_source/previews/nightbound-attack-recovery.png",
+        "art_source/previews/nightbound-transform.png",
+        "art_source/previews/nightbound-death.png"
+      ],
+      "source_albedos": [
+        "src/assets/materials/v11-nightbound-cloth-albedo.png"
+      ],
+      "bytes": 3400972,
+      "blend_bytes": 3199675,
+      "triangles": 8766,
+      "nodes": 63,
+      "skins": 1,
+      "bones": 21,
+      "clips": [
+        "attack",
+        "death",
+        "hurt",
+        "idle",
+        "move",
+        "transform"
+      ],
+      "materials": [
+        "Nightbound blue-black steel",
+        "Nightbound blood crystal",
+        "Nightbound oxblood coat panels",
+        "Nightbound cape shadow folds",
+        "Nightbound cape edge folds",
+        "Nightbound ritual mask",
+        "Nightbound aged leather",
+        "Nightbound torn oxblood cloth"
+      ],
+      "valid": true,
+      "missing_clips": [],
+      "scene_roots": [
+        "NightboundRig"
+      ],
+      "runtime_transform": {
+        "scale": 1.0,
+        "rotation_y": 0.0
+      },
+      "conventions": {
+        "units": "meters",
+        "up": "+Y at runtime / Blender +Z converted by glTF",
+        "forward": "+Z at runtime",
+        "root_at_ground": true
+      }
+    },
+    {
+      "id": "v11-husk-mourner",
+      "asset": "husk-mourner",
+      "static_url": "src/assets/models/husk-mourner.glb",
+      "authored_root_name": "HuskMournerRig",
+      "glb": "src/assets/models/husk-mourner.glb",
+      "blend": "art_source/characters/husk-mourner.blend",
+      "previews": [
+        "art_source/previews/husk-mourner-gameplay.png",
+        "art_source/previews/husk-mourner-close.png",
+        "art_source/previews/husk-mourner-attack.png",
+        "art_source/previews/husk-mourner-death.png"
+      ],
+      "source_albedos": [
+        "src/assets/materials/v11-mourner-linen-albedo.png"
+      ],
+      "bytes": 3777832,
+      "blend_bytes": 3592216,
+      "triangles": 7128,
+      "nodes": 56,
+      "skins": 1,
+      "bones": 21,
+      "clips": [
+        "attack",
+        "death",
+        "hurt",
+        "idle",
+        "move"
+      ],
+      "materials": [
+        "Mourner wet leather",
+        "Mourner drowned lumen",
+        "Mourner gray-green linen",
+        "Mourner exposed shroud",
+        "Mourner soot burial mask",
+        "Mourner pitted iron",
+        "Mourner shroud shadow"
+      ],
+      "valid": true,
+      "missing_clips": [],
+      "scene_roots": [
+        "HuskMournerRig"
+      ],
+      "runtime_transform": {
+        "scale": 1.0,
+        "rotation_y": 0.0
+      },
+      "conventions": {
+        "units": "meters",
+        "up": "+Y at runtime / Blender +Z converted by glTF",
+        "forward": "+Z at runtime",
+        "root_at_ground": true
+      }
+    },
+    {
+      "id": "v11-bell-saint",
+      "asset": "bell-saint",
+      "static_url": "src/assets/models/bell-saint.glb",
+      "authored_root_name": "BellSaintRig",
+      "glb": "src/assets/models/bell-saint.glb",
+      "blend": "art_source/characters/bell-saint.blend",
+      "previews": [
+        "art_source/previews/bell-saint-gameplay.png",
+        "art_source/previews/bell-saint-close.png",
+        "art_source/previews/bell-saint-death.png"
+      ],
+      "source_albedos": [
+        "src/assets/materials/v11-bellsaint-vestment-albedo.png"
+      ],
+      "bytes": 4075584,
+      "blend_bytes": 3780342,
+      "triangles": 10660,
+      "nodes": 76,
+      "skins": 1,
+      "bones": 25,
+      "clips": [
+        "attack",
+        "death",
+        "hurt",
+        "idle",
+        "move",
+        "phase_pose"
+      ],
+      "materials": [
+        "Bell-Saint aged toll gold",
+        "Bell-Saint textured violet-black vestment",
+        "Bell-Saint resonance",
+        "Bell-Saint layered violet vestment",
+        "Bell-Saint reliquary steel",
+        "Bell-Saint void mask"
+      ],
+      "valid": true,
+      "missing_clips": [],
+      "scene_roots": [
+        "BellSaintRig"
+      ],
+      "runtime_transform": {
+        "scale": 1.0,
+        "rotation_y": 0.0
+      },
+      "conventions": {
+        "units": "meters",
+        "up": "+Y at runtime / Blender +Z converted by glTF",
+        "forward": "+Z at runtime",
+        "root_at_ground": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "phase": "1",
+  "result": "{\"seconds\":30,\"samples\":1800,\"averageFps\":60,\"onePercentLowFps\":56.64,\"frameMs\":{\"median\":16.7,\"p95\":17.1,\"p99\":17.6,\"max\":17.7},\"start\":{\"objects\":1199,\"calls\":93,\"triangles\":32343,\"geometries\":164,\"textures\":96,\"programs\":28},\"end\":{\"objects\":1199,\"calls\":93,\"triangles\":32343,\"geometries\":164,\"textures\":96,\"programs\":28},\"delta\":{\"objects\":0,\"geometries\":0,\"textures\":0,\"programs\":0},\"quality\":\"low\",\"viewport\":{\"width\":1280,\"height\":720,\"pixelRatio\":0.65},\"environment\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"hardwareConcurrency\":10,\"deviceMemory\":16,\"webglVersion\":\"WebGL 2.0 (OpenGL ES 3.0 Chromium)\",\"webglRenderer\":\"ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)\",\"webglVendor\":\"Google Inc. (Apple)\"}}",
+  "status": "ready:v14",
+  "logs": []
+}

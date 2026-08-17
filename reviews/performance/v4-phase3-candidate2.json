@@ -1,0 +1,34 @@
+{
+  "status": "fail",
+  "gate": "SUP-007",
+  "capturedOn": "2026-08-07",
+  "url": "http://localhost:5175/?scenario=boss&form=dreadwolf&god=1&perf=1",
+  "server": "Vite development server",
+  "scenario": { "encounter": "Ossivar phase III", "bossHealthPercent": 32, "form": "dreadwolf", "invulnerableQaMode": true },
+  "sample": {
+    "seconds": 30,
+    "frames": 860,
+    "averageFps": 28.73,
+    "onePercentLowFps": 5.91,
+    "frameMs": { "median": 24.7, "p95": 106.5, "p99": 144, "max": 265.1 }
+  },
+  "renderer": {
+    "quality": "low",
+    "viewportCssPixels": { "width": 1280, "height": 720 },
+    "pixelRatio": 0.75,
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "webglVendor": "Google Inc. (Apple)",
+    "end": { "drawCalls": 96, "triangles": 10355, "geometries": 279, "textures": 8, "programs": 35, "sceneObjects": 501 },
+    "sampleDelta": { "sceneObjects": -14, "geometries": -14, "textures": 0, "programs": 0 }
+  },
+  "browser": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "hardwareConcurrency": 10,
+    "reportedDeviceMemoryGb": 16
+  },
+  "console": { "errors": 0, "warnings": 0 },
+  "evidence": "../evidence/v4-performance-phase3-candidate2.png",
+  "visualAssessment": "Phase identity and silhouettes remain readable, but aggressive arena culling makes the fight noticeably sparse and flatter. The visual loss is not justified by the failed performance result."
+}

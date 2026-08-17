@@ -1,0 +1,62 @@
+{
+  "status": "fail",
+  "gate": "SUP-007",
+  "capturedOn": "2026-08-07",
+  "url": "http://localhost:5175/?scenario=boss&form=dreadwolf&god=1&perf=1",
+  "server": "Vite development server",
+  "scenario": {
+    "encounter": "Ossivar phase III",
+    "bossHealthPercent": 32,
+    "form": "dreadwolf",
+    "invulnerableQaMode": true
+  },
+  "sample": {
+    "seconds": 30,
+    "frames": 1058,
+    "averageFps": 35.26,
+    "onePercentLowFps": 18.21,
+    "frameMs": {
+      "median": 29.1,
+      "p95": 37.5,
+      "p99": 46.6,
+      "max": 89.4
+    }
+  },
+  "renderer": {
+    "quality": "low",
+    "viewportCssPixels": { "width": 1280, "height": 720 },
+    "pixelRatio": 1,
+    "end": {
+      "drawCalls": 141,
+      "triangles": 28749,
+      "geometries": 288,
+      "textures": 8,
+      "programs": 22,
+      "sceneObjects": 509
+    },
+    "sampleDelta": {
+      "sceneObjects": -4,
+      "geometries": -4,
+      "textures": 0,
+      "programs": 0
+    }
+  },
+  "host": {
+    "operatingSystem": "macOS 26.5 (25F71)",
+    "architecture": "arm64",
+    "model": "MacBook Air (Mac17,4)",
+    "chip": "Apple M5",
+    "cpuCores": 10,
+    "gpuCores": 10,
+    "memoryGb": 24,
+    "browser": "Codex in-app browser",
+    "browserVersion": null,
+    "webglRenderer": null,
+    "browserMetadataLimitation": "The browser control surface did not expose navigator, WebGL renderer, or browser version to its isolated evaluator during this capture. The QA probe now records these fields for subsequent captures."
+  },
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "evidence": "../evidence/v4-performance-phase3.png"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "pass",
+  "gate": "SUP-007",
+  "capturedOn": "2026-08-07",
+  "url": "http://localhost:5174/?scenario=boss&form=stonewrought&god=1&perf=1&quality=low",
+  "server": "Vite development server",
+  "warmupSecondsAfterPhaseThree": 12,
+  "scenario": {
+    "encounter": "Ossivar phase III: Last Resonance",
+    "bossHealthPercent": 32,
+    "form": "stonewrought",
+    "invulnerableQaMode": true
+  },
+  "sample": {
+    "seconds": 30,
+    "frames": 1800,
+    "averageFps": 60,
+    "onePercentLowFps": 56.23,
+    "frameMs": { "median": 16.7, "p95": 17.6, "p99": 17.7, "max": 18.1 }
+  },
+  "renderer": {
+    "quality": "low",
+    "viewportCssPixels": { "width": 1280, "height": 720 },
+    "pixelRatio": 0.65,
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "start": {
+      "drawCalls": 77,
+      "triangles": 9799,
+      "geometries": 239,
+      "textures": 3,
+      "programs": 28,
+      "sceneObjects": 469
+    },
+    "end": {
+      "drawCalls": 72,
+      "triangles": 10311,
+      "geometries": 242,
+      "textures": 3,
+      "programs": 28,
+      "sceneObjects": 472
+    },
+    "sampleDelta": {
+      "sceneObjects": 3,
+      "geometries": 3,
+      "textures": 0,
+      "programs": 0
+    }
+  },
+  "browser": {
+    "userAgentFamily": "Chrome 151",
+    "webglBackend": "WebGL2 / ANGLE Metal",
+    "gpu": "Apple M5"
+  },
+  "console": { "errors": 0, "warnings": 0 },
+  "evidence": "../evidence/v5-performance-final.png",
+  "acceptance": {
+    "averageFpsNear": 60,
+    "onePercentLowFpsMinimum": 45,
+    "passed": true
+  },
+  "resourceInterpretation": "The +3 objects/geometries occurred while phase-three hazards were active. Textures and programs stayed flat, and hazard cleanup is covered by source contracts. Treat this as transient attack state, not proof of a leak; a settled post-attack sample would be required to prove full return to baseline."
+}

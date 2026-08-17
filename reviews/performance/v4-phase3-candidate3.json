@@ -1,0 +1,28 @@
+{
+  "status": "fail",
+  "gate": "SUP-007",
+  "capturedOn": "2026-08-07",
+  "url": "http://localhost:5175/?scenario=boss&form=dreadwolf&god=1&perf=1&quality=low",
+  "warmupSecondsAfterPhaseThree": 12,
+  "scenario": { "encounter": "Ossivar phase III", "bossHealthPercent": 32, "form": "dreadwolf", "invulnerableQaMode": true },
+  "sample": {
+    "seconds": 30,
+    "frames": 1269,
+    "averageFps": 42.28,
+    "onePercentLowFps": 29.49,
+    "frameMs": { "median": 23.2, "p95": 28.3, "p99": 31.3, "max": 41.9 }
+  },
+  "renderer": {
+    "quality": "low",
+    "viewportCssPixels": { "width": 1280, "height": 720 },
+    "pixelRatio": 0.75,
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "webglVendor": "Google Inc. (Apple)",
+    "end": { "drawCalls": 101, "triangles": 10083, "geometries": 204, "textures": 2, "programs": 17, "sceneObjects": 509 },
+    "sampleDelta": { "sceneObjects": -4, "geometries": -4, "textures": 0, "programs": 0 }
+  },
+  "console": { "errors": 0, "warnings": 0 },
+  "evidence": "../evidence/v4-performance-phase3-candidate3.png",
+  "visualAssessment": "Boss phase color, silhouette, HUD, and arena boundary remain readable. Off-arena culling materially flattens and empties the arena, so further art removal is not recommended."
+}

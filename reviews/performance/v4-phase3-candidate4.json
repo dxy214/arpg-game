@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "gate": "SUP-007",
+  "capturedOn": "2026-08-07",
+  "url": "http://localhost:5175/?scenario=boss&form=dreadwolf&god=1&perf=1&quality=low",
+  "warmupSecondsAfterPhaseThree": 12,
+  "scenario": { "encounter": "Ossivar phase III", "bossHealthPercent": 32, "form": "dreadwolf", "invulnerableQaMode": true },
+  "sample": {
+    "seconds": 30,
+    "frames": 1298,
+    "averageFps": 43.26,
+    "onePercentLowFps": 29.86,
+    "frameMs": { "median": 22.7, "p95": 29.5, "p99": 32.4, "max": 36.8 }
+  },
+  "renderer": {
+    "quality": "low",
+    "viewportCssPixels": { "width": 1280, "height": 720 },
+    "pixelRatio": 0.65,
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "end": { "drawCalls": 76, "triangles": 9947, "geometries": 181, "textures": 2, "programs": 26, "sceneObjects": 469 },
+    "sampleDelta": { "sceneObjects": 11, "geometries": 11, "textures": 0, "programs": 0 }
+  },
+  "console": { "errors": 0, "warnings": 0 },
+  "evidence": "../evidence/v4-performance-phase3-candidate4.png",
+  "interpretation": "Boss instancing achieved fewer than 80 steady draw calls, but timing regressed against candidate three. Current code remains stable but below both absolute and environment-normalized acceptance."
+}

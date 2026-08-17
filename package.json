@@ -1,0 +1,25 @@
+{
+  "name": "veilfall",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc -b --pretty false",
+    "test": "npm run typecheck && npm run test:contracts && npm run build && npm run test:dist",
+    "test:contracts": "node --test tests/contracts.test.mjs tests/collision.test.mjs",
+    "test:dist": "node --test tests/static-build.test.mjs tests/static-preview.test.mjs",
+    "test:quick": "npm run typecheck && npm run test:contracts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.179.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}

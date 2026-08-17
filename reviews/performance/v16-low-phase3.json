@@ -1,0 +1,15 @@
+{
+  "version": 16,
+  "tier": "low",
+  "seconds": 30,
+  "samples": 1800,
+  "averageFps": 60,
+  "onePercentLowFps": 56.75,
+  "frameMs": { "median": 16.7, "p95": 17.0, "p99": 17.6, "max": 17.7 },
+  "start": { "objects": 1589, "calls": 22, "triangles": 35667, "geometries": 147, "textures": 20, "programs": 42 },
+  "end": { "objects": 1619, "calls": 60, "triangles": 35365, "geometries": 144, "textures": 20, "programs": 42 },
+  "delta": { "objects": 30, "geometries": -3, "textures": 0, "programs": 0 },
+  "viewport": { "width": 1280, "height": 720, "pixelRatio": 0.65 },
+  "host": "Apple M5 / Chrome 151 / WebGL2 ANGLE Metal",
+  "consoleWarningsOrErrors": 0
+}

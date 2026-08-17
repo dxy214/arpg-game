@@ -1,0 +1,33 @@
+{
+  "status": "fail",
+  "gate": "SUP-007",
+  "capturedOn": "2026-08-07",
+  "url": "http://localhost:5175/?scenario=boss&form=dreadwolf&god=1&perf=1&quality=low",
+  "warmupSecondsAfterPhaseThree": 12,
+  "scenario": { "encounter": "Ossivar phase III", "bossHealthPercent": 32, "form": "dreadwolf", "invulnerableQaMode": true },
+  "sample": {
+    "seconds": 30,
+    "frames": 1367,
+    "averageFps": 45.54,
+    "onePercentLowFps": 32.98,
+    "frameMs": { "median": 21.9, "p95": 27.1, "p99": 29.3, "max": 32 }
+  },
+  "renderer": {
+    "quality": "low",
+    "viewportCssPixels": { "width": 1280, "height": 720 },
+    "pixelRatio": 0.65,
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "webglVendor": "Google Inc. (Apple)",
+    "end": { "drawCalls": 96, "triangles": 11771, "geometries": 201, "textures": 2, "programs": 20, "sceneObjects": 489 },
+    "sampleDelta": { "sceneObjects": 6, "geometries": 6, "textures": 0, "programs": 0 },
+    "liveEnd": { "fps": 46.6, "frameMs": 21.47, "drawCalls": 131, "triangles": 10623 }
+  },
+  "console": { "errors": 0, "warnings": 0 },
+  "evidence": "../evidence/v4-performance-phase3-final.png",
+  "acceptance": {
+    "absolute": { "averageFpsNear": 60, "onePercentLowFpsMinimum": 45, "passed": false },
+    "environmentNormalized": { "averageFpsMinimum": 46, "medianFrameMsMaximum": 20, "drawCallTarget": 80, "passed": false }
+  },
+  "visualAssessment": "Boss and phase identity remain readable, but low-tier resolution is visibly softer and boss-arena culling leaves a sparser, flatter presentation."
+}

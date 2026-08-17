@@ -1,0 +1,27 @@
+{
+  "status": "environment-baseline",
+  "capturedOn": "2026-08-07",
+  "url": "http://localhost:5175/?perf=1&baseline=1&quality=low",
+  "sample": {
+    "seconds": 30,
+    "frames": 1649,
+    "averageFps": 54.96,
+    "onePercentLowFps": 12.24,
+    "frameMs": { "median": 17.1, "p95": 21.3, "p99": 34.5, "max": 150.9 }
+  },
+  "renderer": {
+    "quality": "low",
+    "viewportCssPixels": { "width": 1280, "height": 720 },
+    "pixelRatio": 0.75,
+    "drawCalls": 0,
+    "triangles": 0,
+    "geometries": 0,
+    "textures": 0,
+    "programs": 0,
+    "sceneObjects": 1,
+    "webglRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  "browser": "Chrome/151.0.0.0 in Codex in-app browser",
+  "console": { "errors": 0, "warnings": 0 },
+  "interpretation": "The in-app browser baseline is itself below a locked 60 FPS and exhibits a rare 150.9 ms hitch. Absolute game results remain failures; baseline is included only to separate environment ceiling from game overhead."
+}

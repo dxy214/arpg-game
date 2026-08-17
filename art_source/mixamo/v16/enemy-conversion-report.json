@@ -1,0 +1,156 @@
+{
+  "actions": {
+    "attack": {
+      "frames": [
+        1.0,
+        62.0
+      ],
+      "rebased_hips_location": [
+        -1.7201398611068726,
+        -45.48002243041992,
+        0.3005622625350952
+      ],
+      "removed_foreign_bone_curves": 230,
+      "removed_object_curves": 0,
+      "sha256": "e1bc856cd910f669e34082cb4d2fea4c6d0703ce76d6a29a044d44d8dcffd819",
+      "source": "attack.fbx",
+      "unanimated_base_bones": [
+        "mixamorig:BackCloth1",
+        "mixamorig:BackCloth2",
+        "mixamorig:BackCloth3",
+        "mixamorig:BackCloth4",
+        "mixamorig:FrontCloth1",
+        "mixamorig:FrontCloth2",
+        "mixamorig:FrontCloth3",
+        "mixamorig:FrontCloth4"
+      ]
+    },
+    "death": {
+      "frames": [
+        1.0,
+        133.0
+      ],
+      "rebased_hips_location": [
+        -0.35253921151161194,
+        -6.715728282928467,
+        1.1679474115371704
+      ],
+      "removed_foreign_bone_curves": 230,
+      "removed_object_curves": 0,
+      "sha256": "89342ff0e57808edd4331123337abaa1117d10f74be3fdf9ec994d46442f675e",
+      "source": "death.fbx",
+      "unanimated_base_bones": [
+        "mixamorig:BackCloth1",
+        "mixamorig:BackCloth2",
+        "mixamorig:BackCloth3",
+        "mixamorig:BackCloth4",
+        "mixamorig:FrontCloth1",
+        "mixamorig:FrontCloth2",
+        "mixamorig:FrontCloth3",
+        "mixamorig:FrontCloth4"
+      ]
+    },
+    "hurt": {
+      "frames": [
+        1.0,
+        42.0
+      ],
+      "rebased_hips_location": [
+        -1.1311182975769043,
+        -20.67096519470215,
+        0.38461971282958984
+      ],
+      "removed_foreign_bone_curves": 230,
+      "removed_object_curves": 0,
+      "sha256": "6ee2fe244d339fbbc85c8bf66dfceda37968cc61294684c82ddb3acda332ca49",
+      "source": "hurt.fbx",
+      "unanimated_base_bones": [
+        "mixamorig:BackCloth1",
+        "mixamorig:BackCloth2",
+        "mixamorig:BackCloth3",
+        "mixamorig:BackCloth4",
+        "mixamorig:FrontCloth1",
+        "mixamorig:FrontCloth2",
+        "mixamorig:FrontCloth3",
+        "mixamorig:FrontCloth4"
+      ]
+    },
+    "idle": {
+      "frames": [
+        1.0,
+        181.0
+      ],
+      "rebased_hips_location": [
+        5.935870170593262,
+        -2.83740496635437,
+        0.8759094476699829
+      ],
+      "removed_foreign_bone_curves": 230,
+      "removed_object_curves": 0,
+      "sha256": "93b7610a0ecc67ad2c775b3b33e23928c08bc019c7efa3792d189e81ecc1da05",
+      "source": "idle.fbx",
+      "unanimated_base_bones": [
+        "mixamorig:BackCloth1",
+        "mixamorig:BackCloth2",
+        "mixamorig:BackCloth3",
+        "mixamorig:BackCloth4",
+        "mixamorig:FrontCloth1",
+        "mixamorig:FrontCloth2",
+        "mixamorig:FrontCloth3",
+        "mixamorig:FrontCloth4"
+      ]
+    },
+    "move": {
+      "frames": [
+        1.0,
+        22.0
+      ],
+      "rebased_hips_location": [
+        -0.6492723226547241,
+        -20.506895065307617,
+        -1.1186944246292114
+      ],
+      "removed_foreign_bone_curves": 230,
+      "removed_object_curves": 0,
+      "sha256": "d987546e58d3daa14ae03895066335183c41da1b3c6d76df0e3f588951768046",
+      "source": "run.fbx",
+      "unanimated_base_bones": [
+        "mixamorig:BackCloth1",
+        "mixamorig:BackCloth2",
+        "mixamorig:BackCloth3",
+        "mixamorig:BackCloth4",
+        "mixamorig:FrontCloth1",
+        "mixamorig:FrontCloth2",
+        "mixamorig:FrontCloth3",
+        "mixamorig:FrontCloth4"
+      ]
+    }
+  },
+  "bind_bounds_blender_xyz": {
+    "max": [
+      1.4253467321395874,
+      0.26365795731544495,
+      1.9499999284744263
+    ],
+    "min": [
+      -1.4253442287445068,
+      -0.2774919867515564,
+      -4.091447181053809e-10
+    ]
+  },
+  "blender": "4.5.12 LTS",
+  "bones": 73,
+  "materials": [
+    "skeletonZombie_Material",
+    "skeletonZombie_Material1"
+  ],
+  "meshes": 1,
+  "output": "src/assets/models/mixamo-skeletonzombie.glb",
+  "output_bytes": 17955676,
+  "output_sha256": "d2c320507b2c055df323aecba97c7ec9d911e52e3384a7e77b89ebe7a26b30c0",
+  "scale_factor": 0.9457781883771408,
+  "source": "enemy-skeletonzombie.fbx",
+  "source_sha256": "46f85fbac2e340bae36f60055448fb743171bdf9325bf400d13ba23557c58963",
+  "triangles": 12486,
+  "vertices": 6294
+}

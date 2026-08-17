@@ -1,0 +1,16 @@
+{
+  "version": 15,
+  "tier": "high",
+  "scenario": "Bell-Saint Phase III after 12-second warmup",
+  "seconds": 30,
+  "samples": 1800,
+  "averageFps": 60,
+  "onePercentLowFps": 56.71,
+  "frameMs": { "median": 16.7, "p95": 16.9, "p99": 17.5, "max": 17.7 },
+  "start": { "objects": 1199, "calls": 109, "triangles": 125883, "geometries": 325, "textures": 123, "programs": 64 },
+  "end": { "objects": 1199, "calls": 109, "triangles": 125883, "geometries": 325, "textures": 123, "programs": 64 },
+  "delta": { "objects": 0, "geometries": 0, "textures": 0, "programs": 0 },
+  "viewport": { "width": 1280, "height": 720, "pixelRatio": 1.25 },
+  "host": "Apple M5 / Chrome 151 / WebGL2 ANGLE Metal",
+  "consoleWarningsOrErrors": 0
+}

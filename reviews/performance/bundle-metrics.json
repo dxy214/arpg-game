@@ -1,0 +1,176 @@
+{
+  "generatedBy": "npm run test:dist",
+  "deterministicInputs": true,
+  "compression": {
+    "gzipLevel": 9,
+    "brotliQuality": 6
+  },
+  "totals": {
+    "bytes": 67176259,
+    "gzipBytes": 60595111,
+    "brotliBytes": 60413744
+  },
+  "files": [
+    {
+      "path": "assets/bell-saint-AVtWwMIy.glb",
+      "type": "glb",
+      "bytes": 4075584,
+      "gzipBytes": 3676913,
+      "brotliBytes": 3654949
+    },
+    {
+      "path": "assets/bell-sanctum-floor-v1-CcbNJGex.jpg",
+      "type": "jpg",
+      "bytes": 731726,
+      "gzipBytes": 731737,
+      "brotliBytes": 731731
+    },
+    {
+      "path": "assets/bell-sanctum-runner-v1-DaE5wRC9.jpg",
+      "type": "jpg",
+      "bytes": 962087,
+      "gzipBytes": 962128,
+      "brotliBytes": 962092
+    },
+    {
+      "path": "assets/bell-sanctum-wall-v1-CBrDuokM.jpg",
+      "type": "jpg",
+      "bytes": 758736,
+      "gzipBytes": 758777,
+      "brotliBytes": 758741
+    },
+    {
+      "path": "assets/blackened-steel-v1-CbApwC8O.jpg",
+      "type": "jpg",
+      "bytes": 74332,
+      "gzipBytes": 74257,
+      "brotliBytes": 74337
+    },
+    {
+      "path": "assets/CharacterAssetRuntime-CY_Z5Xnp.js",
+      "type": "js",
+      "bytes": 51923,
+      "gzipBytes": 15413,
+      "brotliBytes": 15135
+    },
+    {
+      "path": "assets/CharacterAssetRuntime-CY_Z5Xnp.js.map",
+      "type": "map",
+      "bytes": 264295,
+      "gzipBytes": 61064,
+      "brotliBytes": 58185
+    },
+    {
+      "path": "assets/gnarled-bark-v1-DX0V6rlF.jpg",
+      "type": "jpg",
+      "bytes": 512058,
+      "gzipBytes": 512019,
+      "brotliBytes": 512063
+    },
+    {
+      "path": "assets/gothic-stone-v1-BlwwCCJF.jpg",
+      "type": "jpg",
+      "bytes": 478672,
+      "gzipBytes": 478635,
+      "brotliBytes": 478677
+    },
+    {
+      "path": "assets/hollow-march-ground-v2-BqB-fioT.jpg",
+      "type": "jpg",
+      "bytes": 386367,
+      "gzipBytes": 386212,
+      "brotliBytes": 386372
+    },
+    {
+      "path": "assets/husk-mourner-DBCbs1j1.glb",
+      "type": "glb",
+      "bytes": 3777832,
+      "gzipBytes": 3499445,
+      "brotliBytes": 3492754
+    },
+    {
+      "path": "assets/index-BxIHta8Y.js",
+      "type": "js",
+      "bytes": 190566,
+      "gzipBytes": 58477,
+      "brotliBytes": 56028
+    },
+    {
+      "path": "assets/index-BxIHta8Y.js.map",
+      "type": "map",
+      "bytes": 618222,
+      "gzipBytes": 148255,
+      "brotliBytes": 141928
+    },
+    {
+      "path": "assets/index-DfJ4xcm9.css",
+      "type": "css",
+      "bytes": 12713,
+      "gzipBytes": 4151,
+      "brotliBytes": 3870
+    },
+    {
+      "path": "assets/mixamo-skeletonzombie-CXP92u8D.glb",
+      "type": "glb",
+      "bytes": 17955676,
+      "gzipBytes": 17443834,
+      "brotliBytes": 17435533
+    },
+    {
+      "path": "assets/mixamo-vampire-NEC355Zp.glb",
+      "type": "glb",
+      "bytes": 16832820,
+      "gzipBytes": 16179557,
+      "brotliBytes": 16178435
+    },
+    {
+      "path": "assets/mixamo-warrok-TMvrMyWf.glb",
+      "type": "glb",
+      "bytes": 12223196,
+      "gzipBytes": 11626628,
+      "brotliBytes": 11595527
+    },
+    {
+      "path": "assets/nightbound-cloth-v1-Dn7s_WAt.jpg",
+      "type": "jpg",
+      "bytes": 68862,
+      "gzipBytes": 68809,
+      "brotliBytes": 68867
+    },
+    {
+      "path": "assets/nightbound-gjdxXVLc.glb",
+      "type": "glb",
+      "bytes": 3400972,
+      "gzipBytes": 3094839,
+      "brotliBytes": 3083535
+    },
+    {
+      "path": "assets/quaternius-knight-DBTCfe9f.glb",
+      "type": "glb",
+      "bytes": 361240,
+      "gzipBytes": 94086,
+      "brotliBytes": 86255
+    },
+    {
+      "path": "assets/three-CtPAVgbV.js",
+      "type": "js",
+      "bytes": 588447,
+      "gzipBytes": 149687,
+      "brotliBytes": 137731
+    },
+    {
+      "path": "assets/three-CtPAVgbV.js.map",
+      "type": "map",
+      "bytes": 2848776,
+      "gzipBytes": 569552,
+      "brotliBytes": 500481
+    },
+    {
+      "path": "index.html",
+      "type": "html",
+      "bytes": 1157,
+      "gzipBytes": 636,
+      "brotliBytes": 518
+    }
+  ]
+}
